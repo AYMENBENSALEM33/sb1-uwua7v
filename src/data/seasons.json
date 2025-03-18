@@ -1,0 +1,33 @@
+{
+  "seasons": [
+    {
+      "name": "winter",
+      "ranges": [
+        { "start": 1, "end": 78 },
+        { "start": 355, "end": 365 }
+      ],
+      "color": "rgba(191, 219, 254, 0.2)"
+    },
+    {
+      "name": "spring",
+      "ranges": [
+        { "start": 79, "end": 171 }
+      ],
+      "color": "rgba(167, 243, 208, 0.2)"
+    },
+    {
+      "name": "summer",
+      "ranges": [
+        { "start": 172, "end": 265 }
+      ],
+      "color": "rgba(254, 215, 170, 0.2)"
+    },
+    {
+      "name": "autumn",
+      "ranges": [
+        { "start": 266, "end": 354 }
+      ],
+      "color": "rgba(251, 207, 232, 0.2)"
+    }
+  ]
+}

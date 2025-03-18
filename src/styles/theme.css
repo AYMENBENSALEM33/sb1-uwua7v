@@ -1,0 +1,67 @@
+/* Base styles */
+@layer base {
+  body {
+    @apply bg-gray-900 text-gray-100;
+    background-image: url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=2072');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+
+/* Custom animations */
+@keyframes glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 5px rgba(139, 92, 246, 0.5))
+           drop-shadow(0 0 15px rgba(139, 92, 246, 0.3));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(139, 92, 246, 0.7))
+           drop-shadow(0 0 20px rgba(139, 92, 246, 0.5));
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Utility classes */
+.glassmorphism {
+  @apply bg-gray-900/40 backdrop-blur-md border border-white/10;
+}
+
+.neon-text {
+  @apply font-bold;
+  text-shadow: 0 0 10px rgba(139, 92, 246, 0.5),
+               0 0 20px rgba(139, 92, 246, 0.3),
+               0 0 30px rgba(139, 92, 246, 0.1);
+}
+
+.neon-border {
+  box-shadow: 0 0 10px rgba(139, 92, 246, 0.2),
+              inset 0 0 10px rgba(139, 92, 246, 0.1);
+}
+
+/* Scrollbar styles */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(139, 92, 246, 0.3) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(139, 92, 246, 0.3);
+  border-radius: 4px;
+}

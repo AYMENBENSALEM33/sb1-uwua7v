@@ -1,0 +1,44 @@
+{
+  "category": {
+    "name": "Événements Spéciaux",
+    "description": "Série d'événements spéciaux pour test",
+    "colors": {
+      "default": "#8B5CF6"
+    },
+    "positions": {
+      "default": 2
+    }
+  },
+  "events": [
+    {
+      "name": "Événement 1",
+      "startDate": "2024-04-15",
+      "endDate": "2024-04-15",
+      "color": "#8B5CF6",
+      "visible": true,
+      "position": 2,
+      "type": "",
+      "value": 42.50
+    },
+    {
+      "name": "Événement 2",
+      "startDate": "2024-05-20",
+      "endDate": "2024-05-22",
+      "color": "#8B5CF6",
+      "visible": true,
+      "position": 2,
+      "type": "",
+      "value": -123.75
+    },
+    {
+      "name": "Événement 3",
+      "startDate": "2024-06-10",
+      "endDate": "2024-06-10",
+      "color": "#8B5CF6",
+      "visible": true,
+      "position": 2,
+      "type": "",
+      "value": 0.00
+    }
+  ]
+}
